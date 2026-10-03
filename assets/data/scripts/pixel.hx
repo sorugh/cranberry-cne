@@ -155,9 +155,6 @@ var pixellyCameras = [];
 var pixellyShaders = [];
 
 function postUpdate() {
-	for (e in pixellyCameras) if (Std.isOfType(e, HudCamera))
-		e.downscroll = camHUD.downscroll;
-
 	if (enableCameraHacks) for (p in strumLines) {
 		p.notes.forEach(function(n) {
 			if(n.isSustainNote) return; // hacky fix for hold

@@ -182,7 +182,6 @@ class CharterStrumlineScreen extends UISubstateWindow {
 		addLabelOn(keyCountStepper, TU.translate("charterStrumLine.keyCount"));
 
 		strumLineCam = new HudCamera();
-		strumLineCam.downscroll = Options.downscroll;
 		strumLineCam.bgColor = 0;
 		strumLineCam.alpha = 0;
 		FlxG.cameras.add(strumLineCam, false);

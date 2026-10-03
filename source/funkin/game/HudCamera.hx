@@ -10,7 +10,7 @@ class HudCamera extends FlxCamera {
 	 * Whenever the camera should flip the y axis.
 	 * Keeps the sprites not flipped, but the positions are flipped.
 	 */
-	public var downscroll:Bool = false;
+	public var downscroll:Bool = Options.downscroll;
 	
 	/**
 	 * Array of objects to be ignored by downscroll

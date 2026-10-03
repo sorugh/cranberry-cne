@@ -66,7 +66,6 @@ class ChartDataScreen extends UISubstateWindow {
 		closeButton.x -= closeButton.bWidth;
 
 		strumLineCam = new HudCamera();
-		strumLineCam.downscroll = Options.downscroll;
 		strumLineCam.bgColor = 0;
 		strumLineCam.alpha = 0;
 		FlxG.cameras.add(strumLineCam, false);
